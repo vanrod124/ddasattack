@@ -1,0 +1,24 @@
+As for essential commands, here are some that you'll likely use frequently:
+
+enable: Enters privileged EXEC mode.
+configure terminal: Enters global configuration mode.
+interface <type> <number>: Selects an interface to configure.
+ip address <address> <subnet_mask>: Sets the IP address for an interface.
+no shutdown: Turns on an interface (which is off by default).
+exit: Exits the current configuration mode.
+show running-config: Displays the current configuration.
+show interfaces: Shows the status of all interfaces.
+show ip interface brief: Shows a brief summary of all IP interfaces.
+ping <ip_address>: Sends an ICMP echo request to the specified address.
+For routers:
+
+router rip or router ospf <process_id>: Starts configuring a routing protocol.
+network <network_address>: Adds a network to the routing protocol.
+show ip route: Displays the routing table.
+For switches:
+
+vlan <vlan_id>: Creates a VLAN.
+name <vlan_name>: Names the VLAN.
+switchport mode access: Sets a port to access mode.
+switchport access vlan <vlan_id>: Assigns a port to a VLAN.
+Remember, the exact commands you'll need will depend on what you're trying to accomplish. The Cisco documentation is a great resource for learning more about these commands and how to use them.
